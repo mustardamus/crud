@@ -1,3 +1,7 @@
+var define = function(a, f) {
+  window.crud = f;
+};
+
 define([], function() {
 
   return makeCrud();
