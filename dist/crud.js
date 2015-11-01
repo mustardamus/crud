@@ -1,5 +1,5 @@
 var define = function(a, f) {
-  window.crud = f;
+  window.crud = f();
 };
 
 define([], function() {
